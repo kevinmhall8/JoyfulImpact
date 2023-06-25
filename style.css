@@ -661,7 +661,9 @@ h2 {
         /* width: 200px;
         height: 150px; */
         float: center;
-        border-radius: 4em 0em;
+        /* border-radius: 4em 0em; */
+        outline: 2px solid white;
+        outline-offset: -12px;
         
 }
 
@@ -710,8 +712,11 @@ h2 {
 .main-our-program-box {
     background-color: white;
     color: #88B193;
-    padding: 20px;
-    border-radius: 0em 4em;
+    padding: 10px;
+    /* border-radius: 0em 4em;
+     */
+    outline: 2px solid #88B193;
+    outline-offset: -12px;
 }
 
 .main-insurance-box {
@@ -719,6 +724,8 @@ h2 {
             color:#88B193;
             padding: 20px;
             border-radius: 4em 0em;
+                outline: 2px solid #88B193;
+                    outline-offset: -12px;
 }
 
 .main-text {
@@ -747,7 +754,7 @@ h2 {
     padding: 35px;
     max-width: 80%;
     float: center;
-    border-radius: 5em 1em;
+    /* border-radius: 5em 1em; */
 
 }
 }
@@ -772,5 +779,6 @@ h2 {
     padding: 35px;
     /* max-width: 80%; */
     float: center;
-    border-radius: 1em 1em;
+    /* border-radius: 1em 1em;
+     */
 }
