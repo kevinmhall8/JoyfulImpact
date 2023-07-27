@@ -1260,3 +1260,49 @@ h2 {
     padding-bottom: 30px;
     padding-top: 20px;
 }
+
+details {
+    background-color:#88B193;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:after {
+    content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after {
+    content: "\00D7";
+}
+
+details[open] div {
+    padding: .5em 1em;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#F2D594;
+    font-size: 36px;
+}
+
+.faq-column {
+    background-color:#88B193
+}
