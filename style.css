@@ -51,6 +51,12 @@ h4{
             padding-left: 5px;
 }
 
+@media screen and (max-width: 363px) {
+    h4 {
+        font-size: 16px;
+    }
+}
+
 /* .logo-text { */
     /* text-align: left; */
     /* display: inline-block; */
