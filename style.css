@@ -1270,19 +1270,26 @@ h2 {
 details {
     background-color:#88B193;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 summary {
+    font-size: 1.5rem;
     padding: .5em 1.3rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
     transition: height 1s ease;
+    color:#F2D594;
+    text-align:left;
 }
 
 summary::-webkit-details-marker {
     display: none;
+}
+
+summary:hover {
+    cursor: pointer;
 }
 
 summary:after {
@@ -1311,4 +1318,94 @@ details[open] div {
 
 .faq-column {
     background-color:#88B193
+}
+
+.our-services-hero {
+    background-color:#88B193;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 40px 4px 30px 4px;    
+    font-size: 16px;
+}
+
+.highlighted-text {
+    color:#F2D594;
+    font-size: 20px;
+    /* float: left; */
+}
+
+/* .our-services-text{
+    float: left;
+} */
+
+.photo-img{
+    box-shadow:
+        -50px -50px 0 -40px,
+        50px 50px 0 -40px;
+         color: white;
+}
+
+/* .top-hero {
+    padding-bottom: 20px;
+} */
+
+.insurance-main-hero {
+    background-color: #88B193;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 0 10px 0;
+}
+
+.insurance-text {
+    padding: 10px 4px 10px 4px;
+}
+
+.aba-hero {
+    /* background-color: #88B193; */
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 30px 0 30px 0;
+}
+
+.aba-column {
+    background-color:#88B193;
+    padding: 20px 12px 20px 12px;
+    outline-offset: -12px;
+        outline: 2px solid white;
+            /* padding: 10px 10px 10px 10px; */
+}
+
+.aba-title {
+    text-align: center;
+    color:#F2D594;
+    font-size: 36px;
+}
+
+.aba-text {
+    color: white;
+}
+
+
+.contact-us-hero {
+    /* height: 100vh; */
+    width: 100%;
+    /* background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#F2D594 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #F2D594 0.8px, #ffffff 0.8px) -0.4px 0; */
+    /* background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;    font-family: 'Josefin Sans', sans-serif; */
+    /* background-image: url(Assets/images/jump.jpg); */
+    /* background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#F2D594 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #F2D594 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-us-main-hero {
+    /* height: 100vh; */
+    width: 100%;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#F2D594 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #F2D594 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;    font-family: 'Josefin Sans', sans-serif;
+    /* background-image: url(Assets/images/jump.jpg); */
+    /* background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#F2D594 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #F2D594 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px; */
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
