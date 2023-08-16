@@ -491,7 +491,8 @@ h2 {
 
 .head-hero-body {
     height: 100vh;
-    background-image: url(Assets/images/jump.jpg);
+    /* background-image: url(Assets/images/jump.jpg); */
+    background-image: url(Assets/images/newmain.jpg);
     background-size: cover;
     filter: grayscale(30%);
     /* background-image: url(Assets/images/logopng.png); */
@@ -822,6 +823,13 @@ h2 {
         -50px -50px 0 -40px,
         50px 50px 0 -40px;
     color: white;
+}
+
+.about-us-top-img{
+    box-shadow:
+    -50px -50px 0 -40px,
+    50px 50px 0 -40px;
+color: white;
 }
 
 .founder-img {
