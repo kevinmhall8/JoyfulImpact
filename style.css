@@ -818,6 +818,19 @@ h2 {
     color: #88B193;
 }
 
+.bottom-img {
+box-shadow:
+    -50px -50px 0 -40px,
+    50px 50px 0 -40px;
+color: #88B193;
+}
+
+.bottom-column {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 .children-img {
     box-shadow:
         -50px -50px 0 -40px,
