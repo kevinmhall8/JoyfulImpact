@@ -1384,9 +1384,44 @@ details[open] div {
          color: white;
 }
 
-/* .top-hero {
-    padding-bottom: 20px;
-} */
+.available-services-hero {
+    background: #88B193;
+    padding: 30px 0 30px 0;
+}
+
+.available-services-text {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.service-icon {
+    font-size: 40px;
+}
+
+.hero-title {
+    color:#F2D594;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 0 30px 0;
+}
+
+.service-title {
+    color: #F2D594;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.service-features {
+    color: white;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 2px 2px 2px 2px;
+}
+
+
 
 .insurance-main-hero {
     background-color: #88B193;
