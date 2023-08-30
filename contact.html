@@ -77,12 +77,27 @@
             </h2>
         <p class="under-construction-text">
             We are working to update this page with information. Please check back again soon.
+            <br><br>To reach us, please email jhall@jiaba.org, or call 209-649-8962.
         </p>            
         </div>
     </div>
  </div>
 </section>
 </div>
+
+<div class="contact-container">
+<form onsubmit="sendEmail(); reset(); return false;">
+  <h3>GET IN TOUCH</h3>
+  <input type="text" id="name" placeholder="Your Name" required >
+  <input type="email" id="email" placeholder="Your Email" required >
+  <input type="text" id="phone" placeholder="Phone Number" required >
+  <textarea name="" id="message" rows="4" placeholder="How can we help you?"></textarea>
+  <button type="submit">SEND</button>
+</form>
+</div>
+
+
+
 
     <div class="pg-footer">
       <footer class="footer">
@@ -304,7 +319,21 @@
         </div>
       </div>
     </div>
-
+<script src="https://smtpjs.com/v3/smtp.js">
+  function sendEmail(){
+Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+  }
+</script>
     <script src="app.js"></script>
   </body>
 </html>
